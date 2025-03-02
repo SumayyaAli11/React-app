@@ -1,0 +1,66 @@
+/* General styles for the About section */
+/*div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }*/
+  
+  /* Heading style */
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Paragraph styles */
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Highlight React keywords */
+  strong {
+    color: #61dafb; /* React's brand color */
+    font-weight: bold;
+  }
+  
+  /* Add some spacing and style for the last paragraph */
+  p:last-of-type {
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+    color: #666;
+  }
+  
+  /* Optional: Add a hover effect for links (if you add any) */
+  a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    section {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
